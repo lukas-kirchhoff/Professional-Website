@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+	font-family: arial;
+}
+
+body {
+    color: #404040;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+
+/* Header */
+#header {
+    width: 900px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    height: 70px;
+    background-color: #ffffff;
+    top: 0px;
+}
+
+/* Main Image */
+.title-image {
+    width: 900px;
+    margin: 70px auto 0px auto;
+	height: 245.391px;
+}
+
+/* Logo */
+.logo__wrapper {
+    width: 150px;
+    float: left;
+}
+
+/* Navbar */
+.navbar {
+    float: right;
+}
+
+.navbar__link,
+.navbar__link--enroll {
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    padding: 8px 12px;
+}
+
+.navbar__link--enroll {
+    background-color: #05014A;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.navbar__link--enroll .navbar__link--a {
+    color: #ffffff;
+}
+
+/* Main Content */
+.content__wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.content__wrapper--boxes {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+}
+
+/* Footer */
+#footer {
+    background-color: #05014A;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    color: #fff;
+    float: left;
+    width: 100%;
+}
+
+.footer__left {
+    width: 50%;
+    float: left;
+}
+
+.footer__right {
+    width: 50%;
+    float: left;    
+}
+
+#footer a{
+    color: #ffffff;
+}
+
+.footer__wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.business_block{
+	width: 400px;
+	margin: 10px;
+	background-color: #CFCDCC;
+	height: 900px;
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.business_block h1{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.business_block p{
+	text-align: absolute;
+}
+
+.button {
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: blue;
+        color: white;
+        padding: 2px 6px 2px 6px;
+        border-top: 1px solid #CCCCCC;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        border-left: 1px solid #CCCCCC;
+}
+
+.bsub_block{
+	text-align: center;
+	width: 900px;
+	height: 700px;
+	background-color: #CFCDCC;
+}
+
+.bsub_block h1{
+	margin: 30px;
+}
