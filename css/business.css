@@ -155,3 +155,7 @@ a {
 .bsub_block h1{
 	margin: 30px;
 }
+
+#footer p{
+	width: 500px;
+}
