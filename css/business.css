@@ -2,7 +2,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-	font-family: arial;
+	font-family: 'Merriweather', serif;
+    font-weight: 400;
 }
 
 body {
@@ -18,7 +19,6 @@ ul {
 }
 
 a {
-    color: #404040;
     text-decoration: none;
 }
 
@@ -38,9 +38,10 @@ a {
 
 /* Main Image */
 .title-image {
-    width: 900px;
+    width: 1900px;
     margin: 70px auto 0px auto;
-	height: 245.391px;
+	max-height: 350px;
+	overflow: hidden;
 }
 
 /* Logo */
@@ -66,6 +67,7 @@ a {
     background-color: #05014A;
     color: #fff;
     margin-right: 0px;
+	border-radius: 5px;
 }
 
 .navbar__link--enroll .navbar__link--a {
@@ -102,7 +104,8 @@ a {
 
 .footer__right {
     width: 50%;
-    float: left;    
+    float: left;  
+	color: white;	
 }
 
 #footer a{
@@ -117,7 +120,6 @@ a {
 .business_block{
 	width: 400px;
 	margin: 10px;
-	background-color: #CFCDCC;
 	height: 900px;
 	float: left;
 	margin-left: 30px;
@@ -158,4 +160,18 @@ a {
 
 #footer p{
 	width: 500px;
+}
+
+.readmoreb {
+    width: 150px;
+    padding: 8px;
+}
+
+.readmoreb {
+    background-color: #05014A;
+    color: white;
+    border-radius: 5px;
+	margin-left: 120px;
+	margin-top: 50px;
+    
 }
