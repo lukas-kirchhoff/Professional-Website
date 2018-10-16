@@ -202,3 +202,53 @@ a {
     font-size: 12px;
     text-align: right;
 }
+
+.business_block{
+	width: 400px;
+	margin: 10px;
+	height: 900px;
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.business_block h1{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.business_block p{
+	text-align: absolute;
+}
+
+.bsub_block{
+	text-align: center;
+	width: 900px;
+	height: 700px;
+}
+
+.bsub_block h1{
+	margin: 30px;
+}
+
+#footer p{
+	width: 500px;
+}
+
+.readmoreb {
+    width: 150px;
+    padding: 8px;
+}
+
+.readmoreb {
+    background-color: #05014A;
+    color: #fff;
+    border-radius: 5px;
+	margin-left: 120px;
+	margin-top: 50px;
+    
+}
+
+.readmoreb--b {
+	color: #fff;
+}
