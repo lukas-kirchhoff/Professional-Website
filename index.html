@@ -13,16 +13,19 @@
 <body>
     <header id="header">
         <div class="logo__wrapper">
-            <img src="img/logo.jpg" alt="Logo" />
+            <a href="index.html">
+                <img src="img/logo.jpg" alt="Logo" />
+            </a>
         </div>
         <!-- NAVBAR -->
         <div class="navbar">
             <ul>
-                <li class="navbar__link"><a class="navbar__link--a" href="#">Why UBT?</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="html/whyUBT.html">Why UBT</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="#">Why Emmen</a></li>
                 <li class="navbar__link"><a class="navbar__link--a" href="html/business.html">Business</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="#">Technology</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="#">Contact</a></li>
-                <li class="navbar__link--enroll"><a class="navbar__link--a" href="#">Enroll now!</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="html/technology.html">Technology</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="html/contact.html">Contact</a></li>
+                <li class="navbar__link--enroll"><a class="navbar__link--a" href="html/enroll-now.html">Enroll now!</a></li>
             </ul>
         </div>
     </header>
@@ -100,16 +103,68 @@
     </div>
     <div class="content__seperator">
         <div class="content__wrapper">
-            <div class="content__leftside">
+            <div class="content__leftside--30">
                 <h2>Why UBT?</h2>
                 <p>
-                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imp
+                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+                    justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                    elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
+                    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imp
                 </p>
             </div>
-            <div class="content__rightside">
+            <div class="content__rightside--35">
                 <img src="img/layout/square.png" alt="Image" />
             </div>
         </div>
+    </div>
+    <div class="content__wrapper">
+        <div class="content__leftside">
+            <h2>Contact</h2>
+            <form class="main-form" action="thanks.php" method="POST">
+                <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
+                <input class="input_text" required type="text" placeholder="Name" name="name" />
+                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                <select class="input_select" required>
+                    <option selected disabled>What Information do you need?</option>
+                    <option>Marine</option>
+                    <option>Insurance</option>
+                    <option>Aerospace</option>
+                    <option>Banking</option>
+                </select>
+                <input class="main__button" type="submit">
+            </form>
+        </div>
+        <div class="content__rightside--35">
+            <h2>Weather</h2>
+        </div>
+    </div>
+    <div class="content__seperator">
+        <div id="map"></div>
+        <script>
+            // Initialize and add the map
+            function initMap() {
+                // The location of Uluru
+                var uluru = {
+                    lat: 52.779068,
+                    lng: 6.901070
+                };
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {
+                        zoom: 8,
+                        center: uluru
+                    });
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKxBpWQcfRVmM4NBQ_rDIzIzAU7qgEqNE&callback=initMap">
+        </script>
     </div>
     <footer id="footer">
         <div class="footer__wrapper">

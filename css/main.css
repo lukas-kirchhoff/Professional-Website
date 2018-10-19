@@ -37,8 +37,8 @@ ul {
     list-style-type: none;
 }
 
-hr{
-    border-color:#05014A;
+hr {
+    border-color: #05014A;
 }
 
 p {
@@ -97,7 +97,7 @@ a {
     color: #fff;
     margin-right: 0px;
     border-radius: 5px;
-    
+
 }
 
 .navbar__link--enroll .navbar__link--a {
@@ -158,10 +158,20 @@ a {
 
 .content__leftside {
     float: left;
+    width: 50%;
+}
+
+.content__leftside--30 {
+    float: left;
     width: 30%;
 }
 
 .content__rightside {
+    float: right;
+    width: 50%;
+}
+
+.content__rightside--35 {
     float: right;
     width: 35%;
 }
@@ -203,36 +213,36 @@ a {
     text-align: right;
 }
 
-.business_block{
-	width: 400px;
-	margin: 10px;
-	height: 900px;
-	float: left;
-	margin-left: 30px;
-	text-align: center;
+.business_block {
+    width: 400px;
+    margin: 10px;
+    height: 900px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
 }
 
-.business_block h1{
-	margin-top: 10px;
-	margin-bottom: 20px;
+.business_block h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.business_block p{
-	text-align: absolute;
+.business_block p {
+    text-align: absolute;
 }
 
-.bsub_block{
-	text-align: center;
-	width: 900px;
-	height: 700px;
+.bsub_block {
+    text-align: center;
+    width: 900px;
+    height: 700px;
 }
 
-.bsub_block h1{
-	margin: 30px;
+.bsub_block h1 {
+    margin: 30px;
 }
 
-#footer p{
-	width: 500px;
+#footer p {
+    width: 500px;
 }
 
 .readmoreb {
@@ -244,11 +254,77 @@ a {
     background-color: #05014A;
     color: #fff;
     border-radius: 5px;
-	margin-left: 120px;
-	margin-top: 50px;
-    
+    margin-left: 120px;
+    margin-top: 50px;
+
 }
 
 .readmoreb--b {
-	color: #fff;
+    color: #fff;
+}
+
+/* Google Map */
+#map {
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+}
+
+/* Form */
+.input_text {
+    height: 35px;
+    padding-left: 20px;
+    width: 100%;
+    border: 0px;
+    background-color: #E0E0E0;
+    color: #404040;
+    margin-bottom: 15px;
+}
+
+.input_textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    border: 0px;
+    background-color: #E0E0E0;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    color: #404040;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.input_select {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E0E0E0;
+    z-index: 10;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+select {
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #404040;
+}
+
+.main-form .main__button {
+    margin-top: 0px;
+    width: 100%;
 }
