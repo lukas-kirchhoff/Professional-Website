@@ -176,6 +176,11 @@ a {
     width: 35%;
 }
 
+.content__rightside--30 {
+    float: right;
+    width: 30%;
+}
+
 /* Footer */
 #footer {
     background-color: #05014A;
