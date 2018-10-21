@@ -348,7 +348,6 @@ select {
 
 .thanks__headline {
     margin-bottom: 12px;
-<<<<<<< HEAD
 }
 
 /* Disclaimer | Privacy Policy */
@@ -360,6 +359,4 @@ select {
 .disclaimer__paragraph,
 .privacy-policy__paragraph {
     margin-bottom: 12px;
-=======
->>>>>>> d65f5156133e08fa712c685d4639ae846e903a45
 }
