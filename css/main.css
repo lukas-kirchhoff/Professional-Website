@@ -6,7 +6,7 @@
 
 body {
     color: #404040;
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
@@ -92,6 +92,10 @@ a {
     padding: 8px 12px;
 }
 
+.navbar__link:hover {
+    border-bottom: 1px solid #404040;
+}
+
 .navbar__link--enroll {
     background-color: #05014A;
     color: #fff;
@@ -102,6 +106,7 @@ a {
 
 .navbar__link--enroll .navbar__link--a {
     color: #ffffff;
+    padding-bottom: 5px;
 }
 
 /* Main Content */
@@ -301,6 +306,8 @@ a {
     background-color: #E0E0E0;
     resize: none;
     margin-bottom: 15px;
+    font-size: 12px;
+    font-family: 'Montserrat', serif;
 }
 
 ::placeholder {
@@ -339,4 +346,13 @@ select {
 .main-form .main__button {
     margin-top: 0px;
     width: 100%;
+}
+
+/* Thanks Page */
+.thanks__content {
+    margin-top: 50px;
+}
+
+.thanks__headline {
+    margin-bottom: 12px;
 }

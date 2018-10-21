@@ -8,6 +8,7 @@
     <meta name="description" content="Professional Website">
     <link rel="stylesheet" type="text/css" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                 <div class="content__main">
                     <h3>Insurance</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
+                    <a class="main__button" href="html/insurance.html">
                         more Information
                     </a>
                 </div>
@@ -64,7 +65,7 @@
                 <div class="content__main">
                     <h3>Aerospace</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
+                    <a class="main__button" href="#"> <!-- TODO Add Link to Aerospace -->
                         more Information
                     </a>
                 </div>
@@ -79,7 +80,7 @@
                 <div class="content__main">
                     <h3>Banking</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
+                    <a class="main__button" href="html/banking.html">
                         more Information
                     </a>
                 </div>
@@ -94,7 +95,7 @@
                 <div class="content__main">
                     <h3>Marine</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
+                    <a class="main__button" href="#"> <!-- TODO Add Link to Marine -->
                         more Information
                     </a>
                 </div>
@@ -122,18 +123,18 @@
     <div class="content__wrapper">
         <div class="content__leftside">
             <h2>Contact</h2>
-            <form class="main-form" action="thanks.php" method="POST">
+            <form class="main-form" action="php/thanks.php" method="POST">
                 <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
                 <input class="input_text" required type="text" placeholder="Name" name="name" />
                 <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
-                <select class="input_select" required>
+                <select class="input_select" required name="interest">
                     <option selected disabled>What Information do you need?</option>
-                    <option>Marine</option>
-                    <option>Insurance</option>
-                    <option>Aerospace</option>
-                    <option>Banking</option>
+                    <option value="marine">Marine</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="aerospace">Aerospace</option>
+                    <option value="banking">Banking</option>
                 </select>
-                <input class="main__button" type="submit">
+                <input class="main__button" type="submit" name="submit" value="Submit">
             </form>
         </div>
         <div class="content__rightside--35">
