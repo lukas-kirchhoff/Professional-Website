@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homepage</title>
+    <meta name="description" content="Professional Website">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo__wrapper">
+            <a href="../index.html">
+                <img src="../img/logo.jpg" alt="Logo" />
+            </a>
+        </div>
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <ul>
+                <li class="navbar__link"><a class="navbar__link--a" href="whyUBT.html">Why UBT</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="WhyEmmenWhyNetherlands.html">Why Emmen</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="business.html">Business</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="technology.html">Technology</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="contact.html">Contact</a></li>
+                <li class="navbar__link--enroll"><a class="navbar__link--a" href="enroll-now.html">Enroll now!</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- REPLACE THE IMAGE PATH -->
+    <div class="title-image">
+        <img src="../img/contact4.jpg" alt="Header Image">
+    </div>
+
+    <!-- Content -->
+    <div class="content__wrapper">
+        <div class="contact__wrapper">
+            <!-- Place your code inhere -->
+            <h1>Say Hello</h1>
+            <div class="content__leftside">
+                <h2>We are always ready to serve you!</h2>
+                <form class="main-form" action="../php/thanks.php" method="POST">
+                    <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
+                    <input class="input_text" required type="text" placeholder="Name" name="name" />
+                    <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                    <select class="input_select" required name="interest">
+                        <option selected disabled>What Information do you need?</option>
+                        <option value="marine">Marine</option>
+                        <option value="insurance">Insurance</option>
+                        <option value="aerospace">Aerospace</option>
+                        <option value="banking">Banking</option>
+                    </select>
+                    <input class="main__button" type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+            <div class="content__rightside--35">
+                <div class="contact__social-media">
+                    <h2>Connect With Us</h2>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <a href="#">Imprint</a>&nbsp;|&nbsp;<a href="#">Datasecurity</a>&nbsp;|&nbsp;<a href="#">Disclaimer</a>
+            </div>
+            <div class="footer__right">
+                <p>University of Applied Sciences for Business and Technology Emmen</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
