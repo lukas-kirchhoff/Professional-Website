@@ -299,12 +299,14 @@ a {
     background-color: #E0E0E0;
     resize: none;
     margin-bottom: 15px;
-    font-size: 12px;
-    font-family: 'Montserrat', serif;
+    font-size: 12px !important;
+    font-family: 'Montserrat', serif !important;
 }
 
 ::placeholder {
     color: #404040;
+    font-size: 12px !important;
+    font-family: 'Montserrat', serif !important;
 }
 
 textarea:focus,
@@ -359,4 +361,48 @@ select {
 .disclaimer__paragraph,
 .privacy-policy__paragraph {
     margin-bottom: 12px;
+}
+
+/* Contact Page */
+
+.contact__wrapper {
+    margin-top: 50px;
+}
+
+.contact__social-media a {
+    font-size: 30px;
+}
+
+.fa {
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
