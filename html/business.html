@@ -4,24 +4,28 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Professional Website</title>
+    <title>Homepage</title>
     <meta name="description" content="Professional Website">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 
 <body>
     <header id="header">
         <div class="logo__wrapper">
-            <img src="../img/logo.jpg" alt="Logo" />
+            <a href="../index.html">
+                <img src="../img/logo.jpg" alt="Logo" />
+            </a>
         </div>
         <!-- NAVBAR -->
         <div class="navbar">
             <ul>
-                <li class="navbar__link"><a class="navbar__link--a" href="#">Why UBT?</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="whyUBT.html">Why UBT</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="WhyEmmenWhyNetherlands.html">Why Emmen</a></li>
                 <li class="navbar__link"><a class="navbar__link--a" href="business.html">Business</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="#">Technology</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="#">Contact</a></li>
-                <li class="navbar__link--enroll"><a class="navbar__link--a" href="#">Enroll now!</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="technology.html">Technology</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="contact.html">Contact</a></li>
+                <li class="navbar__link--enroll"><a class="navbar__link--a" href="enroll-now.html">Enroll now!</a></li>
             </ul>
         </div>
     </header>
@@ -33,29 +37,39 @@
 
     <!-- Content -->
     <div class="content__wrapper">
-		<div class="business_block">
-		<h1>Banking</h1>
-		<img src="../img/banking.jpg" alt="Banking Image">
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nulla quis metus volutpat pharetra. Nullam commodo neque a magna consequat vehicula. Aliquam nec venenatis enim. Duis non nulla sit amet purus dapibus condimentum quis vel orci. Nulla bibendum pretium leo, ut semper leo finibus non. Phasellus rhoncus laoreet fringilla. Quisque non scelerisque velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sagittis condimentum dui a finibus. Nulla ut diam quis urna viverra semper.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nulla quis metus volutpat pharetra. Nullam commodo neque a magna consequat vehicula. Aliquam nec venenatis enim. Duis non nulla sit amet purus dapibus condimentum quis vel orci. Nulla bibendum pretium leo, ut semper leo finibus non. Phasellus rhoncus laoreet fringilla. Quisque non scelerisque velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sagittis condimentum dui a finibus. Nulla ut diam quis urna viverra semper.
-		</p>
-			<div class="readmoreb">
-			<a class="readmoreb--b" href="banking.html">Read more...</a>
-			</div>
-		</div>
-		<div class="business_block">
-		<h1>Insurance</h1>
-		<img src="../img/insurance.jpg" alt="Insurance Image">
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nulla quis metus volutpat pharetra. Nullam commodo neque a magna consequat vehicula. Aliquam nec venenatis enim. Duis non nulla sit amet purus dapibus condimentum quis vel orci. Nulla bibendum pretium leo, ut semper leo finibus non. Phasellus rhoncus laoreet fringilla. Quisque non scelerisque velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sagittis condimentum dui a finibus. Nulla ut diam quis urna viverra semper.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at nulla quis metus volutpat pharetra. Nullam commodo neque a magna consequat vehicula. Aliquam nec venenatis enim. Duis non nulla sit amet purus dapibus condimentum quis vel orci. Nulla bibendum pretium leo, ut semper leo finibus non. Phasellus rhoncus laoreet fringilla. Quisque non scelerisque velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sagittis condimentum dui a finibus. Nulla ut diam quis urna viverra semper.
-		</p>
-			<div class="readmoreb">
-			<a class="readmoreb--b" href="insurance.html">Read more...</a>
-			</div>
-		</div>
-	</div>	
+        <div class="content__wrapper--half">
+            <div class="content-boxes">
+                <div class="content-boxes__header">
+                    <img src="../img/banking.jpg" alt="Banking Image">
+                </div>
+                <div class="hr__wrapper">
+                    <hr />
+                </div>
+                <div class="content__main">
+                    <h3>Banking</h3>
+                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <a class="main__button" href="banking.html">
+                        more Information
+                    </a>
+                </div>
+            </div>
+            <div class="content-boxes">
+                <div class="content-boxes__header">
+                    <img src="../img/insurance.jpg" alt="Insurance Image">
+                </div>
+                <div class="hr__wrapper">
+                    <hr />
+                </div>
+                <div class="content__main">
+                    <h3>Insurance</h3>
+                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <a class="main__button" href="insurance.html">
+                        more Information
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer id="footer">
         <div class="footer__wrapper">
             <div class="footer__left">

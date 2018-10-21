@@ -128,7 +128,14 @@ a {
     margin-top: 50px;
 }
 
-.content-boxes--fourth {
+.content__wrapper--half {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.content-boxes {
     border: 1px solid #05014A;
     border-radius: 5px;
 }
