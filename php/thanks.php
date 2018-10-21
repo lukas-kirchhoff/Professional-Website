@@ -22,8 +22,12 @@
         <div class="navbar">
             <ul>
                 <li class="navbar__link"><a class="navbar__link--a" href="../html/whyUBT.html">Why UBT</a></li>
+<<<<<<< HEAD
                 <li class="navbar__link"><a class="navbar__link--a" href="../html/WhyEmmenWhyNetherlands.html">Why
                         Emmen</a></li>
+=======
+                <li class="navbar__link"><a class="navbar__link--a" href="../html/WhyEmmenWhyNetherlands.html">Why Emmen</a></li>
+>>>>>>> d65f5156133e08fa712c685d4639ae846e903a45
                 <li class="navbar__link"><a class="navbar__link--a" href="../html/business.html">Business</a></li>
                 <li class="navbar__link"><a class="navbar__link--a" href="../html/technology.html">Technology</a></li>
                 <li class="navbar__link"><a class="navbar__link--a" href="../html/contact.html">Contact</a></li>
@@ -40,13 +44,18 @@
     <!-- Content -->
     <div class="content__wrapper">
         <div class="thanks__content">
+<<<<<<< HEAD
             <?php 
+=======
+        <?php 
+>>>>>>> d65f5156133e08fa712c685d4639ae846e903a45
         if (isset($_POST['submit']))
         {
                 $name = $_POST['name'];
                 $interest = $_POST['interest'];
                 $email = $_POST['email'];
     
+<<<<<<< HEAD
             echo "<h1 class='thanks__headline'>Thank you for your interest in " . ucfirst($interest)^ . "</h1>"; 
             echo "<p>Dear " . $name . " we will send you some more information to " . $email . " as soon as possible</p>";
             echo "<p>As long as you are waiting you can click this link to see more about " . $interest . "</p>";
@@ -56,6 +65,14 @@
         }
         ?>
         </div>
+=======
+            echo "<h1 class='thanks__headline'>Thank you for your interest in " . $interest . "</h1>"; 
+            echo "<p>Dear " . $name . " we will send you some more information to " . $email . " as soon as possible</p>";
+            echo "<p>As long as you are waiting you can click this link to see more about " . $interest . "</p>";
+            echo "<a class='main__button' href='../html/" . $interest . ".html'>more Information</a>";
+        } ?>
+    </div>
+>>>>>>> d65f5156133e08fa712c685d4639ae846e903a45
     </div>
 
     <footer id="footer">
