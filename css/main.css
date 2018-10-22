@@ -406,3 +406,21 @@ select {
     background: #125688;
     color: white;
 }
+/* Enroll-now page */
+.enroll__textbox--title {
+	margin: 15px;
+	margin-left: 0px;
+}
+.enroll__textbox--text {
+	text-align:justify;
+	margin-bottom: 15px;
+}
+.enroll__button {
+	width: auto;
+    padding: 8px 12px;
+    background-color: #05014A;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+	margin-top: 15px;
+}

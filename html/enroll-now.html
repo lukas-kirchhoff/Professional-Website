@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homepage</title>
+    <meta name="description" content="Professional Website">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo__wrapper">
+            <a href="../index.html">
+                <img src="../img/logo.jpg" alt="Logo" />
+            </a>
+        </div>
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <ul>
+                <li class="navbar__link"><a class="navbar__link--a" href="whyUBT.html">Why UBT</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="WhyEmmenWhyNetherlands.html">Why Emmen</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="business.html">Business</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="technology.html">Technology</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="contact.html">Contact</a></li>
+                <li class="navbar__link--enroll"><a class="navbar__link--a" href="enroll-now.html">Enroll now!</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- REPLACE THE IMAGE PATH -->
+    <div class="title-image">
+        <img src="../img/enrollment.jpg" alt="Header Image">
+    </div>
+
+    <!-- Content -->
+    <div class="content__wrapper">
+		<div class="enroll__textbox">
+			<div class="enroll__textbox--title">
+				<h1>Enrollment requirements</h1>
+			</div>
+			<div class="enroll__textbox--text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in ipsum ligula. Duis accumsan tempor neque ut auctor. Cras nec eros mauris. Fusce varius orci a arcu euismod dignissim. Vestibulum dignissim dictum sodales. In tempus dui vitae magna convallis mattis. Ut sit amet eros magna.</p>
+			</div>
+			<div class="enroll__textbox--title">
+				<h1>Deadline for application</h1>
+			</div>
+			<div class="enroll__textbox--text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in ipsum ligula. Duis accumsan tempor neque ut auctor. Cras nec eros mauris. Fusce varius orci a arcu euismod dignissim. Vestibulum dignissim dictum sodales. In tempus dui vitae magna convallis mattis. Ut sit amet eros magna.</p>
+			</div>
+			<div class="enroll__textbox--title">
+				<h1>How to apply</h1>
+			</div>
+			<div class="enroll__textbox--text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean justo tellus, dignissim ut pretium sed, elementum ac ex. Curabitur a mattis tortor. Mauris pulvinar, urna ac volutpat imperdiet, libero nisl tempus ipsum, et euismod tellus enim et sapien. Aliquam erat volutpat. Sed nibh purus, aliquam ut ante sit amet, lobortis faucibus lacus. Ut aliquam leo eu justo auctor consectetur. Curabitur malesuada odio quis enim aliquet cursus. Donec quis laoreet sem. Maecenas non lorem quis libero porta sagittis non non erat. Integer ac eleifend mauris, sed condimentum dui. Praesent aliquet neque nec massa venenatis, vitae lobortis est luctus. Aenean lacinia vulputate est, id ultrices ipsum commodo et. Aenean rutrum varius est a varius. In sit amet mi neque. Integer non arcu mauris. Cras imperdiet quis nunc sed maximus. Sed accumsan ultricies ex ac rutrum. Mauris a interdum est. Aliquam porta, nisl vitae tincidunt varius, diam sapien sodales purus, sit amet faucibus ipsum est id elit. Phasellus ac sapien malesuada, tempor nibh a, congue enim. Ut eu erat scelerisque, vehicula elit eget, pharetra ex. Phasellus maximus tincidunt faucibus. Suspendisse potenti. Aliquam lectus elit, faucibus vitae velit eu, tristique tempus lorem. Nullam eget magna blandit, tincidunt risus tempus, vestibulum nibh. Aenean ac tincidunt quam, eu porta lectus.</p>
+			<a class="enroll__button" href="https://student.sl-cloud.nl/">Apply through Studielink</a>
+			</div>			
+			<div class="enroll__textbox--title">
+				<h1>Request Assistance in your enrollment</h1>
+			</div>
+			<div class="enroll__textbox--text">
+				<p>You can also request help by sending us your name and E-mail address. Shortly after that a member of the UBT Student Administration will contact you.</p>
+			</div>
+		</div>
+		<div class="enroll__request">
+            <form class="main-form" action="../php/request.php" method="POST">
+                <input class="input_text" required type="text" placeholder="Name" name="name" />
+                <input class="input_text" required type="text" placeholder="E-mail address" name="E-mail" />
+                <input class="main__button" type="submit" name="submit" value="Send Request">
+            </form>
+		</div>
+    </div>
+    <footer id="footer">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <a href="#">Imprint</a>&nbsp;|&nbsp;<a href="#">Datasecurity</a>&nbsp;|&nbsp;<a href="#">Disclaimer</a>
+            </div>
+            <div class="footer__right">
+                <p>University of Applied Sciences for Business and Technology Emmen</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
