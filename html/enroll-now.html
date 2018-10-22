@@ -64,11 +64,19 @@
 				<p>You can also request help by sending us your name and E-mail address. Shortly after that a member of the UBT Student Administration will contact you.</p>
 			</div>
 		</div>
-		<div class="enroll__request">
-            <form class="main-form" action="../php/request.php" method="POST">
+		<div class="content__leftside">
+            <form class="main-form" action="php/thanks.php" method="POST">
+                <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
                 <input class="input_text" required type="text" placeholder="Name" name="name" />
-                <input class="input_text" required type="text" placeholder="E-mail address" name="E-mail" />
-                <input class="main__button" type="submit" name="submit" value="Send Request">
+                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                <select class="input_select" required name="interest">
+                    <option selected disabled>What Information do you need?</option>
+                    <option value="marine">Marine</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="aerospace">Aerospace</option>
+                    <option value="banking">Banking</option>
+                </select>
+                <input class="main__button" type="submit" name="submit" value="Submit">
             </form>
 		</div>
     </div>
