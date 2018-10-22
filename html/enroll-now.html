@@ -55,7 +55,7 @@
 			</div>
 			<div class="enroll__textbox--text">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean justo tellus, dignissim ut pretium sed, elementum ac ex. Curabitur a mattis tortor. Mauris pulvinar, urna ac volutpat imperdiet, libero nisl tempus ipsum, et euismod tellus enim et sapien. Aliquam erat volutpat. Sed nibh purus, aliquam ut ante sit amet, lobortis faucibus lacus. Ut aliquam leo eu justo auctor consectetur. Curabitur malesuada odio quis enim aliquet cursus. Donec quis laoreet sem. Maecenas non lorem quis libero porta sagittis non non erat. Integer ac eleifend mauris, sed condimentum dui. Praesent aliquet neque nec massa venenatis, vitae lobortis est luctus. Aenean lacinia vulputate est, id ultrices ipsum commodo et. Aenean rutrum varius est a varius. In sit amet mi neque. Integer non arcu mauris. Cras imperdiet quis nunc sed maximus. Sed accumsan ultricies ex ac rutrum. Mauris a interdum est. Aliquam porta, nisl vitae tincidunt varius, diam sapien sodales purus, sit amet faucibus ipsum est id elit. Phasellus ac sapien malesuada, tempor nibh a, congue enim. Ut eu erat scelerisque, vehicula elit eget, pharetra ex. Phasellus maximus tincidunt faucibus. Suspendisse potenti. Aliquam lectus elit, faucibus vitae velit eu, tristique tempus lorem. Nullam eget magna blandit, tincidunt risus tempus, vestibulum nibh. Aenean ac tincidunt quam, eu porta lectus.</p>
-			<a class="enroll__button" href="https://student.sl-cloud.nl/">Apply through Studielink</a>
+			<a class="enroll__button" href="https://student.sl-cloud.nl/" target="_blank">Apply through Studielink</a>
 			</div>			
 			<div class="enroll__textbox--title">
 				<h1>Request Assistance in your enrollment</h1>
@@ -64,11 +64,19 @@
 				<p>You can also request help by sending us your name and E-mail address. Shortly after that a member of the UBT Student Administration will contact you.</p>
 			</div>
 		</div>
-		<div class="enroll__request">
-            <form class="main-form" action="../php/request.php" method="POST">
+		<div class="content__leftside">
+            <form class="main-form" action="php/thanks.php" method="POST">
+                <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
                 <input class="input_text" required type="text" placeholder="Name" name="name" />
-                <input class="input_text" required type="text" placeholder="E-mail address" name="E-mail" />
-                <input class="main__button" type="submit" name="submit" value="Send Request">
+                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                <select class="input_select" required name="interest">
+                    <option selected disabled>What Information do you need?</option>
+                    <option value="marine">Marine</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="aerospace">Aerospace</option>
+                    <option value="banking">Banking</option>
+                </select>
+                <input class="main__button" type="submit" name="submit" value="Submit">
             </form>
 		</div>
     </div>
