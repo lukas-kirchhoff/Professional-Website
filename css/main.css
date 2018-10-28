@@ -436,3 +436,12 @@ select {
     border-radius: 5px;
 	margin-top: 15px;
 }
+#interview__div{
+	width: 100%;
+	height: 350px;
+	background-color: lightgrey;
+	margin: bottom;
+}
+#separator{
+	height: 50px;
+}
