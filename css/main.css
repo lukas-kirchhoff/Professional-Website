@@ -441,7 +441,15 @@ select {
 	height: 350px;
 	background-color: lightgrey;
 	margin: bottom;
+	position: absolute;
 }
 #separator{
 	height: 50px;
+}
+#circles{
+	width: 25px;
+	height: 25px;
+	color: white; 
+	border-radius: 20px; 
+	position: absolute;
 }
