@@ -452,3 +452,23 @@ select {
 .interview__box .main__button {
     margin-top: 10px;
 }
+
+/* Weather */
+.weather__image,
+.weather__text {
+    width: 50%;
+    float: left;
+}
+
+.weather__text {
+    padding-left: 20px;
+}
+
+.weather-temperatur {
+    font-size: 40px;
+    font-weight: 700;
+    color: #05014A;
+    font-family: 'Merriweather', serif;
+    display: inline-block;
+    margin-bottom: 10px;
+}

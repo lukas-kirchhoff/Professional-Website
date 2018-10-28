@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html>
 
 <head>
@@ -65,7 +65,8 @@
                 <div class="content__main">
                     <h3>Aerospace</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#"> <!-- TODO Add Link to Aerospace -->
+                    <a class="main__button" href="#">
+                        <!-- TODO Add Link to Aerospace -->
                         more Information
                     </a>
                 </div>
@@ -95,7 +96,8 @@
                 <div class="content__main">
                     <h3>Marine</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#"> <!-- TODO Add Link to Marine -->
+                    <a class="main__button" href="#">
+                        <!-- TODO Add Link to Marine -->
                         more Information
                     </a>
                 </div>
@@ -138,7 +140,7 @@
             </form>
         </div>
         <div class="content__rightside--35">
-            <h2>Weather</h2>
+            <?php include_once "php/weather.php"; ?>
         </div>
     </div>
     <div class="content__seperator">
@@ -163,6 +165,7 @@
                     map: map
                 });
             }
+
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKxBpWQcfRVmM4NBQ_rDIzIzAU7qgEqNE&callback=initMap">
         </script>
