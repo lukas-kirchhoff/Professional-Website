@@ -52,7 +52,7 @@
                     <hr />
                 </div>
                 <div class="content__main">
-                    <h3>Insurance</h3>
+                    <h3>Versicherungen</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="html/insurance.html">
                         more Information
@@ -67,7 +67,7 @@
                     <hr />
                 </div>
                 <div class="content__main">
-                    <h3>Aerospace</h3>
+                    <h3>Luftfahrt</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="#">
                         <!-- TODO Add Link to Aerospace -->
@@ -83,7 +83,7 @@
                     <hr />
                 </div>
                 <div class="content__main">
-                    <h3>Banking</h3>
+                    <h3>Bankwesen</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="html/banking.html">
                         more Information
@@ -111,7 +111,7 @@
     <div class="content__seperator">
         <div class="content__wrapper">
             <div class="content__leftside--30">
-                <h2>Why UBT?</h2>
+                <h2>Warum UBT?</h2>
                 <p>
                     pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
                     vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
@@ -128,17 +128,17 @@
     </div>
     <div class="content__wrapper">
         <div class="content__leftside">
-            <h2>Contact</h2>
-            <form class="main-form" action="php/thanks.php" method="POST">
+            <h2>Kontakt</h2>
+            <form class="main-form" action="php/danke.php" method="POST">
                 <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
                 <input class="input_text" required type="text" placeholder="Name" name="name" />
-                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                <textarea class="input_textarea" placeholder="Nachricht" name="message"></textarea>
                 <select class="input_select" required name="interest">
-                    <option selected disabled>What Information do you need?</option>
+                    <option selected disabled>Brauchen Sie noch mehr Informationen?</option>
                     <option value="marine">Marine</option>
-                    <option value="insurance">Insurance</option>
-                    <option value="aerospace">Aerospace</option>
-                    <option value="banking">Banking</option>
+                    <option value="versicherungen">Versicherungen</option>
+                    <option value="luftfahrt">Luftfahrt</option>
+                    <option value="bankwesen">Bankwesen</option>
                 </select>
                 <input class="main__button" type="submit" name="submit" value="Submit">
             </form>
