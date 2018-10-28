@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Homepage</title>
     <meta name="description" content="Professional Website">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
 </head>
 
@@ -15,29 +15,29 @@
     <header id="header">
         <div class="logo__wrapper">
             <a href="index.html">
-                <img src="img/logo.jpg" alt="Logo" />
+                <img src="../img/logo.jpg" alt="Logo" />
             </a>
         </div>
         <!-- NAVBAR -->
         <div class="lang-switch">
-            <a class="lang-switch__link" href="de/index.php">DE</a> /
-            <span><b>EN</b></span>
+            <a class="lang-switch__link" href="../index.php">EN</a> /
+            <span><b>DE</b></span>
         </div>
         <div class="navbar">
             <ul>
-                <li class="navbar__link"><a class="navbar__link--a" href="html/whyUBT.html">Why UBT</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="html/WhyEmmenWhyNetherlands.html">Why Emmen</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="html/business.html">Business</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="html/technology.html">Technology</a></li>
-                <li class="navbar__link"><a class="navbar__link--a" href="html/contact.html">Contact</a></li>
-                <li class="navbar__link--enroll"><a class="navbar__link--a" href="html/enroll-now.html">Enroll now!</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="html/warum-ubt.html">Warum UBT</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="html/warum-emmen.html">Warum Emmen</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="html/geschaeft.html">Geschäft</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="html/technologie.html">Technologie</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="html/kontakt.html">Kontakt</a></li>
+                <li class="navbar__link--enroll-de"><a class="navbar__link--a" href="html/jetzt-einschreiben.html">Jetzt einschreiben!</a></li>
             </ul>
         </div>
     </header>
 
     <!-- REPLACE THE IMAGE PATH -->
     <div class="title-image">
-        <img src="img/header-alumni.jpg" alt="Header Image">
+        <img src="../img/header-alumni.jpg" alt="Header Image">
     </div>
 
     <!-- Content -->
@@ -46,7 +46,7 @@
         <div class="content__wrapper--boxes">
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/document.svg" />
+                    <img src="../img/icons/document.svg" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
@@ -61,7 +61,7 @@
             </div>
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/plane.svg" />
+                    <img src="../img/icons/plane.svg" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
@@ -77,7 +77,7 @@
             </div>
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/pay.svg" />
+                    <img src="../img/icons/pay.svg" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
@@ -92,7 +92,7 @@
             </div>
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/cruise.svg" />
+                    <img src="../img/icons/cruise.svg" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
@@ -122,7 +122,7 @@
                 </p>
             </div>
             <div class="content__rightside--35">
-                <img src="img/layout/square.png" alt="Image" />
+                <img src="../img/layout/square.png" alt="Image" />
             </div>
         </div>
     </div>
@@ -144,7 +144,7 @@
             </form>
         </div>
         <div class="content__rightside--35">
-            <?php include_once "php/weather.php"; ?>
+            <?php include_once "../php/weather.php"; ?>
         </div>
     </div>
     <div class="content__seperator">
