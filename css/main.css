@@ -436,17 +436,19 @@ select {
 }
 
 /* Enroll-now page */
-li {
+.enroll__li {
 	margin-bottom:15px;
+	text-align: justify;
 }
 .deadline {
 	margin-bottom:0px;
+	text-align: justify;
 }
-.enroll_list--unordered {
+.enroll__list--unordered {
 	list-style: circle;
 	margin-left:20px;
 }
-.enroll_list--ordered {
+.enroll__list--ordered {
 	list-style: decimal;
 	margin-left:20px;
 }
