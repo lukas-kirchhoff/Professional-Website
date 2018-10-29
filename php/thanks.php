@@ -52,7 +52,7 @@
             echo "<p>As long as you are waiting you can click this link to see more about " . ucfirst($interest) . "</p>";
             echo "<a class='main__button' href='../html/" . $interest . ".html'>more Information</a>";
         } else {
-            header('Location: ../index.html');
+            header('Location: ../index.php');
         }
         ?>
         </div>
