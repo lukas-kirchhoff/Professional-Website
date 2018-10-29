@@ -55,7 +55,7 @@
             echo "<p>So lange Sie warten kannst können Sie hier mehr über " . ucfirst($interest) . " lesen</p>";
             echo "<a class='main__button' href='../html/" . $interest . ".html'>mehr Informationen</a>";
         } else {
-            header('Location: ../index.html');
+            header('Location: ../index.php');
         }
         ?>
         </div>
