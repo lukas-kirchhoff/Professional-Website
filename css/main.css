@@ -436,14 +436,28 @@ select {
 }
 
 /* Enroll-now page */
+li {
+	margin-bottom:15px;
+}
+.deadline {
+	margin-bottom:0px;
+}
+.enroll_list--unordered {
+	list-style: circle;
+	margin-left:20px;
+}
+.enroll_list--ordered {
+	list-style: decimal;
+	margin-left:20px;
+}
 .enroll__textbox--title {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     margin-left: 0px;
 }
 
 .enroll__textbox--text {
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .enroll__button {
