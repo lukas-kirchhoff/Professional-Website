@@ -121,8 +121,8 @@
                     Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imp
                 </p>
             </div>
-            <div class="content__rightside--35">
-                <img src="../img/layout/square.png" alt="Image" />
+            <div class="content__rightside">
+                <img src="../img/university.jpg" alt="Image" />
             </div>
         </div>
     </div>
@@ -132,7 +132,7 @@
             <form class="main-form" action="php/danke.php" method="POST">
                 <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
                 <input class="input_text" required type="text" placeholder="Name" name="name" />
-                <textarea class="input_textarea" placeholder="Nachricht" name="message"></textarea>
+                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
                 <select class="input_select" required name="interest">
                     <option selected disabled>Brauchen Sie noch mehr Informationen?</option>
                     <option value="marine">Marine</option>
@@ -144,7 +144,7 @@
             </form>
         </div>
         <div class="content__rightside--35">
-            <?php include_once "../php/weather.php"; ?>
+            <?php include_once "php/wetter.php"; ?>
         </div>
     </div>
     <div class="content__seperator">
