@@ -431,7 +431,7 @@ select {
 }
 
 /* Enroll-now page */
-.enroll__li {
+.enroll_li {
 	margin-bottom:15px;
 	text-align: justify;
 }
