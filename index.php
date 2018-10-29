@@ -121,8 +121,8 @@
                     Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imp
                 </p>
             </div>
-            <div class="content__rightside--35">
-                <img src="img/layout/square.png" alt="Image" />
+            <div class="content__rightside">
+                <img src="img/university.jpg" alt="Image" />
             </div>
         </div>
     </div>
