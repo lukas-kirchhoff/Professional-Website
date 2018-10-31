@@ -270,7 +270,15 @@ a {
 .bsub_block {
     max-width: 900px;
     width: 100%;
-    height: 700px;
+    height: 2000px;
+}
+
+.bsub_block-req{
+	float: left;
+}
+
+.bsub_block-text{
+	padding-bottom: 50px;
 }
 
 .bsub_block p {
