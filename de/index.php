@@ -33,7 +33,8 @@
                 <li class="navbar__link-de"><a class="navbar__link--a" href="html/geschaeft.html">Geschäft</a></li>
                 <li class="navbar__link-de"><a class="navbar__link--a" href="html/technologie.html">Technologie</a></li>
                 <li class="navbar__link-de"><a class="navbar__link--a" href="html/kontakt.html">Kontakt</a></li>
-                <li class="navbar__link--enroll-de"><a class="navbar__link--a" href="html/jetzt-einschreiben.html">Jetzt einschreiben!</a></li>
+                <li class="navbar__link--enroll-de"><a class="navbar__link--a" href="html/jetzt-einschreiben.html">Jetzt
+                        einschreiben!</a></li>
             </ul>
         </div>
     </header>
@@ -172,15 +173,19 @@
                     map: map
                 });
             }
-
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKxBpWQcfRVmM4NBQ_rDIzIzAU7qgEqNE&callback=initMap">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBok-t-HFWmzhsrYhpcEWY7xOTdEAC7Shk&callback=initMap">
         </script>
     </div>
     <footer id="footer">
         <div class="footer__wrapper">
             <div class="footer__left">
+<<<<<<< HEAD
+                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="#">Cookie Policy</a>&nbsp;|&nbsp;<a
+                    href="html/disclaimer.html">Disclaimer</a>
+=======
                 <a href="../html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="../html/cookie_policy.html">Cookie Policy</a>&nbsp;|&nbsp;<a href="../html/disclaimer.html">Disclaimer</a>
+>>>>>>> 0c923b77adc3f9ba4b57fc2d491e7d0f2748d59c
             </div>
             <div class="footer__right">
                 <p>University of Applied Sciences for Business and Technology Emmen</p>
