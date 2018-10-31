@@ -549,6 +549,7 @@ select {
 	font-size: 36px;	
 }
 
-.req-list ul li{
-	list-style-type: circle;
+.req-list ul {
+    list-style-type: circle;
+    padding-left: 20px;
 }
