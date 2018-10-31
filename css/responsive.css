@@ -17,7 +17,8 @@
     .content__leftside--30,
     .content__rightside,
     .content__leftside,
-    .content__rightside--35 {
+    .content__rightside--35,
+    .content__rightside--30 {
         width: 100%;
         margin-top: 50px;
     }
@@ -81,5 +82,12 @@
         grid-template-columns: 100%;
         justify-content: space-between;
         grid-row-gap: 20px;
+    }
+
+    .interview__wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+        grid-row-gap: 45px;
     }
 }
