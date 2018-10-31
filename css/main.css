@@ -550,6 +550,10 @@ select {
 }
 
 .req-list ul {
-    list-style-type: circle;
+    list-style-type: disc;
     padding-left: 20px;
+}
+
+.req-p{
+	padding-bottom: 20px;
 }
