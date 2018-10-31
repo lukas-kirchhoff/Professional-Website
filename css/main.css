@@ -548,3 +548,7 @@ select {
 .bsub_block1_text1 p{
 	font-size: 36px;	
 }
+
+.req-list ul li{
+	list-style-type: circle;
+}
