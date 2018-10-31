@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Homepage</title>
     <meta name="description" content="Professional Website">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
