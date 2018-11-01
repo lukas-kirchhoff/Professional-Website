@@ -145,7 +145,17 @@ a {
     color: #fff;
     display: inline-block;
     border-radius: 5px;
-    margin-top: 40px;
+    margin: 40px;
+}
+
+.main__button__courses {
+    width: auto;
+    padding: 8px 12px;
+    background-color: #05014A;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px;
 }
 
 /* Content Boxes */
