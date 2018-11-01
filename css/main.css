@@ -38,6 +38,10 @@ p {
     font-size: 14px;
 }
 
+.p__margin-bottom {
+    margin-bottom: 12px;
+}
+
 a {
     font-family: 'Merriweather';
     color: #404040;
