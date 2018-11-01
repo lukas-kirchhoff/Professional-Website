@@ -148,6 +148,15 @@ a {
     margin: 40px;
 }
 
+.main__button__form {
+    width: auto;
+    padding: 8px 12px;
+    background-color: #05014A;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
 .main__button__courses {
     width: auto;
     padding: 8px 12px;
@@ -381,7 +390,7 @@ select {
     color: #404040;
 }
 
-.main-form .main__button {
+.main-form .main__button, .main__button__form{
     margin-top: 0px;
     width: 100%;
 }
@@ -481,6 +490,13 @@ select {
     display: inline-block;
     border-radius: 5px;
     margin-top: 15px;
+}
+.enroll__fakeinfo {
+   margin-top: 15px; 
+   margin-left: 20%; 
+}
+.enroll__fakeinfo--p {
+    margin-top: 5px;
 }
 
 /* Why UBT Page */
