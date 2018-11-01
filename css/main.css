@@ -458,14 +458,13 @@ select {
 /* Enroll-now page */
 .enroll_li {
 	margin-bottom:15px;
-	text-align: justify;
 }
 .deadline {
 	margin-bottom:0px;
 	text-align: justify;
 }
 .enroll__list--unordered {
-	list-style: circle;
+	list-style: disc;
 	margin-left:20px;
 }
 .enroll__list--ordered {
@@ -572,6 +571,11 @@ select {
 .req-list ul {
     list-style-type: disc;
     padding-left: 20px;
+}
+
+.listwhy{
+	list-style-type: disc;
+	margin-left:20px;
 }
 
 .req-p{
