@@ -491,8 +491,7 @@ select {
     margin-top: 15px;
 }
 .enroll__fakeinfo {
-   margin-top: 15px; 
-   margin-left: 20%; 
+   margin-bottom: 15px; 
 }
 .enroll__fakeinfo--p {
     margin-top: 5px;
@@ -584,4 +583,10 @@ select {
 
 .findout{
 	margin-bottom: 2px;
+}
+
+/* Why Emmen Page */
+
+.why__text--p {
+	margin-bottom: 15px;
 }
