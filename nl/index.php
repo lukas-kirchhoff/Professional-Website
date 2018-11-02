@@ -7,10 +7,10 @@
     <title>Homepage</title>
     <meta name="description" content="Professional Website">
     <link rel="icon" type="image/png" href="../img/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -20,20 +20,20 @@
                 <img src="../img/logo.jpg" alt="Logo" />
             </a>
         </div>
-        <!-- NAVBAR -->
+         <!-- NAVBAR -->
         <div class="lang-switch">
-            <a class="lang-switch__link" href="../index.php">EN</a> /
             <a class="lang-switch__link" href="../de/index.php">DE</a> /
+            <a class="lang-switch__link" href="../index.php">EN</a> /
             <span><b>NL</b></span>
         </div>
         <div class="navbar">
             <ul>
-                <li class="navbar__link-de"><a class="navbar__link--a" href="html/warum-ubt.html">Warum UBT</a></li>
-                <li class="navbar__link-de"><a class="navbar__link--a" href="html/warum-emmen.html">Warum Emmen</a></li>
-                <li class="navbar__link-de"><a class="navbar__link--a" href="html/geschaeft.html">Geschäft</a></li>
-                <li class="navbar__link-de"><a class="navbar__link--a" href="html/technologie.html">Technologie</a></li>
-                <li class="navbar__link-de"><a class="navbar__link--a" href="html/kontakt.html">Kontakt</a></li>
-                <li class="navbar__link--enroll-de"><a class="navbar__link--a" href="html/jetzt-einschreiben.html">Jetzt einschreiben!</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="whyUBT.html">Waarom UBT</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="WhyEmmenWhyNetherlands.html">Waarom Emmen</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="business.html">Zakelijk</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="technology.html">Technologie</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="contact.html">Contact</a></li>
+                <li class="navbar__link--enroll-nl"><a class="navbar__link--a" href="enroll-now.html">Inschrijven</a></li>
             </ul>
         </div>
     </header>
@@ -55,10 +55,10 @@
                     <hr />
                 </div>
                 <div class="content__main">
-                    <h3>Versicherungen</h3>
+                    <h3>Verzekering</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="html/insurance.html">
-                        more Information
+                        Meer Informatie
                     </a>
                 </div>
             </div>
@@ -70,11 +70,10 @@
                     <hr />
                 </div>
                 <div class="content__main">
-                    <h3>Luftfahrt</h3>
+                    <h3>Lucht- en ruimtevaarttechniek</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
-                        <!-- TODO Add Link to Aerospace -->
-                        more Information
+					<a class="main__button" href="html/aerospace.html">
+                        Meer Informatie
                     </a>
                 </div>
             </div>
@@ -86,10 +85,10 @@
                     <hr />
                 </div>
                 <div class="content__main">
-                    <h3>Bankwesen</h3>
+                    <h3>Bankieren</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="html/banking.html">
-                        more Information
+                        Meer Informatie
                     </a>
                 </div>
             </div>
@@ -101,11 +100,10 @@
                     <hr />
                 </div>
                 <div class="content__main">
-                    <h3>Marine</h3>
+                    <h3>Maritieme techniek</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
-                        <!-- TODO Add Link to Marine -->
-                        more Information
+                    <a class="main__button" href="html/marine.html">
+                        Meer Informatie
                     </a>
                 </div>
             </div>
@@ -114,40 +112,46 @@
     <div class="content__seperator">
         <div class="content__wrapper">
             <div class="content__leftside--30">
-                <h2>Warum UBT?</h2>
+                <h2>Waarom UBT?</h2>
                 <p>
-                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-                    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-                    justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                    elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-                    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imp
+                   <p>
+                    Overweeg je om in Nederland te studeren?
+					Dan zou UBT University of Applied Sciences boven aan je lijst staan.
+					Wij zijn een
+					internationaal erkende instelling die geaccrediteerde diplomas toekent
+					We zijn hebben al 
+					duizenden internationale studenten  succesvol opgeleid met onze Engelstalige bachelor
+					en masterprogramma's in verschillende vakgebieden.
+					Deze variëren van verzekering tot scheepsbouw en ruimtevaarttechniek.</p><br>
+					<p><strong>Wat is Design based learning?</strong></p>
+					In Design-Based Learning (DBL), werken groepen van 7 tot 8 studenten aan het oplossen van realistische problemen,
+					de zogenaamde cases. Elke groep wordt begeleid door een tutor, die de voortgang van het groepsproces bewaakt.
                 </p>
             </div>
             <div class="content__rightside">
-                <img src="../img/university.jpg" alt="Image" />
+                <img src="img/university.jpg" alt="Image" />
             </div>
         </div>
     </div>
     <div class="content__wrapper">
         <div class="content__leftside">
-            <h2>Kontakt</h2>
-            <form class="main-form" action="php/danke.php" method="POST">
+            <h2>Neem contact op</h2>
+            <form class="main-form" action="php/thanks.php" method="POST">
                 <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
-                <input class="input_text" required type="text" placeholder="Name" name="name" />
-                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                <input class="input_text" required type="text" placeholder="Naam" name="name" />
+                <textarea class="input_textarea" placeholder="Bericht" name="message"></textarea>
                 <select class="input_select" required name="interest">
-                    <option selected disabled>Brauchen Sie noch mehr Informationen?</option>
-                    <option value="marine">Marine</option>
-                    <option value="versicherungen">Versicherungen</option>
-                    <option value="luftfahrt">Luftfahrt</option>
-                    <option value="bankwesen">Bankwesen</option>
+                    <option selected disabled>Wat voor informatie heeft uw nodig?</option>
+                    <option value="marine">Maritieme techniek</option>
+                    <option value="insurance">Verzekering</option>
+                    <option value="aerospace">Lucht- en Ruimtevaarttechniek</option>
+                    <option value="banking">Bankieren</option>
                 </select>
                 <input class="main__button" type="submit" name="submit" value="Submit">
             </form>
         </div>
         <div class="content__rightside--35">
-            <?php include_once "php/wetter.php"; ?>
+            <?php include_once "php/weather.php"; ?>
         </div>
     </div>
     <div class="content__seperator">
@@ -172,15 +176,15 @@
                     map: map
                 });
             }
-
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKxBpWQcfRVmM4NBQ_rDIzIzAU7qgEqNE&callback=initMap">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBok-t-HFWmzhsrYhpcEWY7xOTdEAC7Shk&callback=initMap">
         </script>
     </div>
     <footer id="footer">
         <div class="footer__wrapper">
             <div class="footer__left">
-                <a href="../html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="../html/cookie_policy.html">Cookie Policy</a>&nbsp;|&nbsp;<a href="../html/disclaimer.html">Disclaimer</a>
+                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="#">Cookie Policy</a>&nbsp;|&nbsp;<a
+                    href="html/disclaimer.html">Disclaimer</a>
             </div>
             <div class="footer__right">
                 <p>University of Applied Sciences for Business and Technology Emmen</p>

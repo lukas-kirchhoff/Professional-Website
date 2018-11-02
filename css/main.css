@@ -117,11 +117,19 @@ a {
     padding: 8px;
 }
 
+.navbar__link-nl,
+.navbar__link--enroll-nl {
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+}
+
 .navbar__link:hover {
     border-bottom: 1px solid #404040;
 }
 
-.navbar__link--enroll, .navbar__link--enroll-de {
+.navbar__link--enroll, .navbar__link--enroll-de, .navbar__link--enroll-nl {
     background-color: #05014A;
     color: #fff;
     margin-right: 0px;
@@ -129,7 +137,7 @@ a {
 
 }
 
-.navbar__link--enroll .navbar__link--a, .navbar__link--enroll-de .navbar__link--a {
+.navbar__link--enroll .navbar__link--a, .navbar__link--enroll-de .navbar__link--a, .navbar__link--enroll-nl {
     color: #ffffff;
     padding-bottom: 5px;
 }
@@ -574,6 +582,7 @@ select {
 .req-list ul {
     list-style-type: disc;
     padding-left: 20px;
+	margin-bottom: 15px;	
 }
 
 .listwhy{
