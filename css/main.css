@@ -38,6 +38,10 @@ p {
     font-size: 14px;
 }
 
+.p__margin-bottom {
+    margin-bottom: 12px;
+}
+
 a {
     font-family: 'Merriweather';
     color: #404040;
@@ -145,7 +149,7 @@ a {
     color: #fff;
     display: inline-block;
     border-radius: 5px;
-    margin: 40px;
+    margin-top: 20px;
 }
 
 .main__button__form {
