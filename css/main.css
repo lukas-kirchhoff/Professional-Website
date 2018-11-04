@@ -125,11 +125,15 @@ a {
     padding: 8px;
 }
 
-.navbar__link:hover {
+.navbar__link:hover,
+.navbar__link-nl:hover,
+.navbar__link-de:hover {
     border-bottom: 1px solid #404040;
 }
 
-.navbar__link--enroll, .navbar__link--enroll-de, .navbar__link--enroll-nl {
+.navbar__link--enroll,
+.navbar__link--enroll-de,
+.navbar__link--enroll-nl {
     background-color: #05014A;
     color: #fff;
     margin-right: 0px;
@@ -137,7 +141,9 @@ a {
 
 }
 
-.navbar__link--enroll .navbar__link--a, .navbar__link--enroll-de .navbar__link--a, .navbar__link--enroll-nl {
+.navbar__link--enroll .navbar__link--a,
+.navbar__link--enroll-de .navbar__link--a,
+.navbar__link--enroll-nl .navbar__link--a {
     color: #ffffff;
     padding-bottom: 5px;
 }
@@ -402,7 +408,8 @@ select {
     color: #404040;
 }
 
-.main-form .main__button, .main__button__form{
+.main-form .main__button,
+.main__button__form {
     margin-top: 0px;
     width: 100%;
 }
@@ -469,20 +476,24 @@ select {
 
 /* Enroll-now page */
 .enroll_li {
-	margin-bottom:15px;
+    margin-bottom: 15px;
 }
+
 .deadline {
-	margin-bottom:0px;
-	text-align: justify;
+    margin-bottom: 0px;
+    text-align: justify;
 }
+
 .enroll__list--unordered {
-	list-style: disc;
-	margin-left:20px;
+    list-style: disc;
+    margin-left: 20px;
 }
+
 .enroll__list--ordered {
-	list-style: decimal;
-	margin-left:20px;
+    list-style: decimal;
+    margin-left: 20px;
 }
+
 .enroll__textbox--title {
     margin-bottom: 30px;
     margin-left: 0px;
@@ -502,9 +513,11 @@ select {
     border-radius: 5px;
     margin-top: 15px;
 }
+
 .enroll__fakeinfo {
-   margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
+
 .enroll__fakeinfo--p {
     margin-top: 5px;
 }
@@ -550,56 +563,56 @@ select {
     margin-bottom: 10px;
 }
 
-.bsub_block1{
-	float: left;
+.bsub_block1 {
+    float: left;
 }
 
 
-.bsub_block1_img{
-	margin-top: 25px;
-	width: 650px;
-	float: left;
+.bsub_block1_img {
+    margin-top: 25px;
+    width: 650px;
+    float: left;
 }
 
-.bsub_block1_text{
-	height: 433.53px;
-	width: 250px;
-	background-color: #E0E0E0;
-	float: left;
-	margin-top: 25px;
+.bsub_block1_text {
+    height: 433.53px;
+    width: 250px;
+    background-color: #E0E0E0;
+    float: left;
+    margin-top: 25px;
 }
 
-.bsub_block1_text1{
-	text-align: left;
-	margin-left: 10px;
-	margin-top:	30px;
+.bsub_block1_text1 {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
-.bsub_block1_text1 p{
-	font-size: 36px;	
+.bsub_block1_text1 p {
+    font-size: 36px;
 }
 
 .req-list ul {
     list-style-type: disc;
     padding-left: 20px;
-	margin-bottom: 15px;	
+    margin-bottom: 15px;
 }
 
-.listwhy{
-	list-style-type: disc;
-	margin-left:20px;
+.listwhy {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
-.req-p{
-	padding-bottom: 20px;
+.req-p {
+    padding-bottom: 20px;
 }
 
-.findout{
-	margin-bottom: 2px;
+.findout {
+    margin-bottom: 2px;
 }
 
 /* Why Emmen Page */
 
 .why__text--p {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }

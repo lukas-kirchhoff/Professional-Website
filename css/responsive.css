@@ -2,9 +2,14 @@
 
     .navbar__link,
     .navbar__link--enroll {
-        border-bottom: 1px solid #fff;
         margin-right: 5px;
         margin-bottom: 10px;
+    }
+
+    .navbar__link,
+    .navbar__link-nl,
+    .navbar__link-de {
+        border-bottom: 1px solid #ffffff;
     }
 
     .content__wrapper {
