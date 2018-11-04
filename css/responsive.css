@@ -1,6 +1,10 @@
 @media (max-width:990px) {
-    .navbar {
-        display: none;
+
+    .navbar__link,
+    .navbar__link--enroll {
+        border-bottom: 1px solid #fff;
+        margin-right: 5px;
+        margin-bottom: 10px;
     }
 
     .content__wrapper {
@@ -48,6 +52,18 @@
 }
 
 @media (max-width:768px) {
+    .logo__wrapper {
+        width: 100px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #header {
+        padding-left: 10px;
+        position: relative;
+        text-align: center;
+    }
+
     .bsub_block1_img {
         width: 100%;
         float: none;

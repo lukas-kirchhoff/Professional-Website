@@ -116,18 +116,18 @@
             <div class="content__leftside--30">
                 <h2>Why UBT?</h2>
                 <p>
-                   <p>
                     Are you considering studying in the Netherlands?
-					If so, UBT University of Applied Sciences should
-					be right at the top of your list. We are an 
-					internationally recognised institution that awards
-					accredited degrees. We have already successfully educated 
-					thousands of international students with our English-language bachelor
-					and master programmes in a variety of subject areas.
-					These range from Insurance to Marine engeneering to Aerospace engeneering.</p><br>
-					<p><strong>What is Design based learning?</strong></p>
-					In Design-Based Learning (DBL), groups of 7 to 8 students work on solving realistic problems, 
-					the so-called cases. Each group is supervised by a tutor, who monitors the progress of the group process. 
+                    If so, UBT University of Applied Sciences should
+                    be right at the top of your list. We are an
+                    internationally recognised institution that awards
+                    accredited degrees. We have already successfully educated
+                    thousands of international students with our English-language bachelor
+                    and master programmes in a variety of subject areas.
+                    These range from Insurance to Marine engeneering to Aerospace engeneering.</p><br>
+                <p><strong>What is Design based learning?</strong></p>
+                <p>
+                    In Design-Based Learning (DBL), groups of 7 to 8 students work on solving realistic problems,
+                    the so-called cases. Each group is supervised by a tutor, who monitors the progress of the group process.
                 </p>
             </div>
             <div class="content__rightside">
@@ -178,6 +178,7 @@
                     map: map
                 });
             }
+
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBok-t-HFWmzhsrYhpcEWY7xOTdEAC7Shk&callback=initMap">
         </script>
@@ -185,8 +186,7 @@
     <footer id="footer">
         <div class="footer__wrapper">
             <div class="footer__left">
-                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="#">Cookie Policy</a>&nbsp;|&nbsp;<a
-                    href="html/disclaimer.html">Disclaimer</a>
+                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="#">Cookie Policy</a>&nbsp;|&nbsp;<a href="html/disclaimer.html">Disclaimer</a>
             </div>
             <div class="footer__right">
                 <p>University of Applied Sciences for Business and Technology Emmen</p>
