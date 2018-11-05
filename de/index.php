@@ -16,7 +16,7 @@
 <body>
     <header id="header">
         <div class="logo__wrapper">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="../img/logo.jpg" alt="Logo" />
             </a>
         </div>
@@ -30,11 +30,10 @@
             <ul>
                 <li class="navbar__link-de"><a class="navbar__link--a" href="html/warum-ubt.html">Warum UBT</a></li>
                 <li class="navbar__link-de"><a class="navbar__link--a" href="html/warum-emmen.html">Warum Emmen</a></li>
-                <li class="navbar__link-de"><a class="navbar__link--a" href="html/geschaeft.html">Geschäft</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="html/geschaeft.html">Wirtschaft</a></li>
                 <li class="navbar__link-de"><a class="navbar__link--a" href="html/technologie.html">Technologie</a></li>
                 <li class="navbar__link-de"><a class="navbar__link--a" href="html/kontakt.html">Kontakt</a></li>
-                <li class="navbar__link--enroll-de"><a class="navbar__link--a" href="html/jetzt-einschreiben.html">Jetzt
-                        einschreiben!</a></li>
+                <li class="navbar__link--enroll-de"><a class="navbar__link--a" href="html/jetzt-einschreiben.html">Einschreiben!</a></li>
             </ul>
         </div>
     </header>
@@ -59,7 +58,7 @@
                     <h3>Versicherungen</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="html/insurance.html">
-                        more Information
+                        mehr lesen
                     </a>
                 </div>
             </div>
@@ -75,7 +74,7 @@
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="#">
                         <!-- TODO Add Link to Aerospace -->
-                        more Information
+                        mehr lesen
                     </a>
                 </div>
             </div>
@@ -90,7 +89,7 @@
                     <h3>Bankwesen</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="html/banking.html">
-                        more Information
+                        mehr lesen
                     </a>
                 </div>
             </div>
@@ -106,7 +105,7 @@
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
                     <a class="main__button" href="#">
                         <!-- TODO Add Link to Marine -->
-                        more Information
+                        mehr lesen
                     </a>
                 </div>
             </div>
@@ -117,12 +116,12 @@
             <div class="content__leftside--30">
                 <h2>Warum UBT?</h2>
                 <p>
-                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-                    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-                    justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                    elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-                    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imp
+                    Erwägen Sie ein Studium in den Niederlanden? In diesem Fall sollte die UBT-Fachhochschule ganz oben
+                    auf Ihrer Liste stehen. Wir sind eine international anerkannte Einrichtung, die akkreditierte
+                    Abschlüsse vergibt. Wir haben bereits Tausende von internationalen Studenten mit unseren
+                    englischsprachigen Bachelor- und Master-Programmen in verschiedenen Fachgebieten erfolgreich
+                    ausgebildet. Diese reichen von Versicherungen über Schiffsbau bis hin zu Luft- und
+                    Raumfahrttechnik.
                 </p>
             </div>
             <div class="content__rightside">
