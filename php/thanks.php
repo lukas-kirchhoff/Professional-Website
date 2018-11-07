@@ -16,11 +16,16 @@
 <body>
     <header id="header">
         <div class="logo__wrapper">
-            <a href="../index.html">
+            <a href="../index.php">
                 <img src="../img/logo.jpg" alt="Logo" />
             </a>
         </div>
         <!-- NAVBAR -->
+        <div class="lang-switch">
+            <a class="lang-switch__link" href="../de/index.php">DE</a> /
+            <a class="lang-switch__link" href="../nl/index.php">NL</a> /
+            <span><b>EN</b></span>
+        </div>
         <div class="navbar">
             <ul>
                 <li class="navbar__link"><a class="navbar__link--a" href="../html/whyUBT.html">Why UBT</a></li>
