@@ -16,8 +16,8 @@
 <body>
     <header id="header">
         <div class="logo__wrapper">
-            <a href="../index.html">
-                <img src="../img/logo.jpg" alt="Logo" />
+            <a href="../index.php">
+                <img src="../../img/logo.jpg" alt="Logo" />
             </a>
         </div>
         <!-- NAVBAR -->
@@ -36,7 +36,7 @@
 
     <!-- REPLACE THE IMAGE PATH -->
     <div class="title-image">
-        <img src="../img/header-alumni.jpg" alt="Header Image">
+        <img src="../../img/header-alumni.jpg" alt="Header Image">
     </div>
 
     <!-- Content -->
@@ -51,7 +51,7 @@
             echo "<p>Dear " . $name . " A member of the UBT Student Administration will be contacting you on " . $email . " as soon as possible.</p>";
             echo "<p>Thank you for your patience. " . $name . "</p>";
         } else {
-            header('Location: ../index.html');
+            header('Location: ../index.php');
         }
         ?>
         </div>

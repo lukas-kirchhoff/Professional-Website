@@ -28,12 +28,12 @@
         </div>
         <div class="navbar">
             <ul>
-                <li class="navbar__link-nl"><a class="navbar__link--a" href="whyUBT.html">Waarom UBT</a></li>
-                <li class="navbar__link-nl"><a class="navbar__link--a" href="WhyEmmenWhyNetherlands.html">Waarom Emmen</a></li>
-                <li class="navbar__link-nl"><a class="navbar__link--a" href="business.html">Zakelijk</a></li>
-                <li class="navbar__link-nl"><a class="navbar__link--a" href="technology.html">Technologie</a></li>
-                <li class="navbar__link-nl"><a class="navbar__link--a" href="contact.html">Contact</a></li>
-                <li class="navbar__link--enroll-nl"><a class="navbar__link--a" href="enroll-now.html">Inschrijven</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="html/whyUBT.html">Waarom UBT</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="html/WhyEmmenWhyNetherlands.html">Waarom Emmen</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="html/business.html">Zakelijk</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="html/technology.html">Technologie</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="html/contact.html">Contact</a></li>
+                <li class="navbar__link--enroll-nl"><a class="navbar__link--a" href="html/enroll-now.html">Inschrijven</a></li>
             </ul>
         </div>
     </header>
