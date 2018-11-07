@@ -49,7 +49,7 @@
         <div class="content__wrapper--boxes">
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/document.svg" alt="insurance icon"/>
+                    <img src="img/icons/document.svg" alt="insurance icon" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
@@ -64,7 +64,7 @@
             </div>
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/plane.svg" alt="Aerospace Icon"/>
+                    <img src="img/icons/plane.svg" alt="Aerospace Icon" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
@@ -102,7 +102,8 @@
                 </div>
                 <div class="content__main">
                     <h3>Marine</h3>
-                    <p>Marine engineering includes the engineering of boats, ships, oil rigs and any other marine vessel</p>
+                    <p>Marine engineering includes the engineering of boats, ships, oil rigs and any other marine
+                        vessel</p>
                     <a class="main__button" href="html/marine.html">
                         <!-- TODO Add Link to Marine -->
                         More Information
@@ -127,7 +128,8 @@
                 <p><strong>What is Design based learning?</strong></p>
                 <p>
                     In Design-Based Learning (DBL), groups of 7 to 8 students work on solving realistic problems,
-                    the so-called cases. Each group is supervised by a tutor, who monitors the progress of the group process.
+                    the so-called cases. Each group is supervised by a tutor, who monitors the progress of the group
+                    process.
                 </p>
             </div>
             <div class="content__rightside">
@@ -157,36 +159,14 @@
         </div>
     </div>
     <div class="content__seperator">
-        <div id="map"></div>
-        <script>
-            // Initialize and add the map
-            function initMap() {
-                // The location of Uluru
-                var uluru = {
-                    lat: 52.779068,
-                    lng: 6.901070
-                };
-                // The map, centered at Uluru
-                var map = new google.maps.Map(
-                    document.getElementById('map'), {
-                        zoom: 8,
-                        center: uluru
-                    });
-                // The marker, positioned at Uluru
-                var marker = new google.maps.Marker({
-                    position: uluru,
-                    map: map
-                });
-            }
-
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBok-t-HFWmzhsrYhpcEWY7xOTdEAC7Shk&callback=initMap">
-        </script>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2413.7814053764723!2d6.8962890512210375!3d52.77221642516056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b7e6104f7f8ee7%3A0x2dbdcd7492fec3d7!2sHoenderkamp+20%2C+7812+VZ+Emmen!5e0!3m2!1sde!2snl!4v1541596800349"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <footer id="footer">
         <div class="footer__wrapper">
             <div class="footer__left">
-                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="html/cookie_policy">Cookie Policy</a>&nbsp;|&nbsp;<a href="html/disclaimer.html">Disclaimer</a>
+                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="html/cookie_policy">Cookie
+                    Policy</a>&nbsp;|&nbsp;<a href="html/disclaimer.html">Disclaimer</a>
             </div>
             <div class="footer__right">
                 <p>University of Applied Sciences for Business and Technology Emmen</p>

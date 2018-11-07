@@ -22,8 +22,9 @@
         </div>
         <!-- NAVBAR -->
         <div class="lang-switch">
-            <a class="lang-switch__link" href="../../index.php">EN</a> /
-            <span><b>DE</b></span>
+        <a class="lang-switch__link" href="../de/index.php">DE</a> /
+        <a class="lang-switch__link" href="../../index.php">EN</a> /
+            <span><b>NL</b></span>
         </div>
         <div class="navbar">
             <ul>

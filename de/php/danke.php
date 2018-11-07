@@ -8,9 +8,9 @@
     <meta name="description" content="Professional Website">
     <link rel="icon" type="image/png" href="../img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/responsive.css">
 </head>
 
 <body>
@@ -22,7 +22,8 @@
         </div>
         <!-- NAVBAR -->
         <div class="lang-switch">
-            <a class="lang-switch__link" href="../../index.php">EN</a> /
+        <a class="lang-switch__link" href="../../index.php">EN</a> /
+        <a class="lang-switch__link" href="../nl/index.php">NL</a> /
             <span><b>DE</b></span>
         </div>
         <div class="navbar">
@@ -66,7 +67,7 @@
     <footer id="footer">
         <div class="footer__wrapper">
             <div class="footer__left">
-                <a href="../html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="../html/cookie_policy.html">Cookie Policy</a>&nbsp;|&nbsp;<a href="../html/disclaimer.html">Disclaimer</a>
+                <a href="../../html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="../../html/cookie_policy.html">Cookie Policy</a>&nbsp;|&nbsp;<a href="../../html/disclaimer.html">Disclaimer</a>
             </div>
             <div class="footer__right">
                 <p>University of Applied Sciences for Business and Technology Emmen</p>

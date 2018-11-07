@@ -20,7 +20,7 @@
                 <img src="../img/logo.jpg" alt="Logo" />
             </a>
         </div>
-         <!-- NAVBAR -->
+        <!-- NAVBAR -->
         <div class="lang-switch">
             <a class="lang-switch__link" href="../de/index.php">DE</a> /
             <a class="lang-switch__link" href="../index.php">EN</a> /
@@ -29,7 +29,8 @@
         <div class="navbar">
             <ul>
                 <li class="navbar__link-nl"><a class="navbar__link--a" href="html/whyUBT.html">Waarom UBT</a></li>
-                <li class="navbar__link-nl"><a class="navbar__link--a" href="html/WhyEmmenWhyNetherlands.html">Waarom Emmen</a></li>
+                <li class="navbar__link-nl"><a class="navbar__link--a" href="html/WhyEmmenWhyNetherlands.html">Waarom
+                        Emmen</a></li>
                 <li class="navbar__link-nl"><a class="navbar__link--a" href="html/business.html">Zakelijk</a></li>
                 <li class="navbar__link-nl"><a class="navbar__link--a" href="html/technology.html">Technologie</a></li>
                 <li class="navbar__link-nl"><a class="navbar__link--a" href="html/contact.html">Contact</a></li>
@@ -56,7 +57,8 @@
                 </div>
                 <div class="content__main">
                     <h3>Verzekering</h3>
-                    <p>Verzekering beschermt mensen van elk economisch niveau tegen verliezen en vormen van risicobeheer.</p>
+                    <p>Verzekering beschermt mensen van elk economisch niveau tegen verliezen en vormen van
+                        risicobeheer.</p>
                     <a class="main__button" href="html/insurance.html">
                         Meer Informatie
                     </a>
@@ -71,8 +73,9 @@
                 </div>
                 <div class="content__main">
                     <h3>Lucht- en ruimtevaarttechniek</h3>
-                    <p>Luchtvaart- en Ruimtevaarttechniek houdt zich bezig met de ontwikkeling van allerlei soorten vliegtuigen en ruimtevaartuigen.</p>
-					<a class="main__button" href="html/aerospace.html">
+                    <p>Luchtvaart- en Ruimtevaarttechniek houdt zich bezig met de ontwikkeling van allerlei soorten
+                        vliegtuigen en ruimtevaartuigen.</p>
+                    <a class="main__button" href="html/aerospace.html">
                         Meer Informatie
                     </a>
                 </div>
@@ -114,19 +117,19 @@
             <div class="content__leftside--30">
                 <h2>Waarom UBT?</h2>
                 <p>
-                   <p>
                     Overweeg je om in Nederland te studeren?
-					Dan zou UBT University of Applied Sciences boven aan je lijst staan.
-					Wij zijn een
-					internationaal erkende instelling die geaccrediteerde diplomas toekent
-					We zijn hebben al 
-					duizenden internationale studenten  succesvol opgeleid met onze Engelstalige bachelor
-					en masterprogramma's in verschillende vakgebieden.
-					Deze variëren van verzekering tot scheepsbouw en ruimtevaarttechniek.</p><br>
-					<p><strong>Wat is Design based learning?</strong></p>
-					In Design-Based Learning (DBL), werken groepen van 7 tot 8 studenten aan het oplossen van realistische problemen,
-					de zogenaamde cases. Elke groep wordt begeleid door een tutor, die de voortgang van het groepsproces bewaakt.
-                </p>
+                    Dan zou UBT University of Applied Sciences boven aan je lijst staan.
+                    Wij zijn een
+                    internationaal erkende instelling die geaccrediteerde diplomas toekent
+                    We zijn hebben al
+                    duizenden internationale studenten succesvol opgeleid met onze Engelstalige bachelor
+                    en masterprogramma's in verschillende vakgebieden.
+                    Deze variëren van verzekering tot scheepsbouw en ruimtevaarttechniek.</p><br>
+                <p><strong>Wat is Design based learning?</strong></p>
+                In Design-Based Learning (DBL), werken groepen van 7 tot 8 studenten aan het oplossen van
+                realistische problemen,
+                de zogenaamde cases. Elke groep wordt begeleid door een tutor, die de voortgang van het
+                groepsproces bewaakt.
             </div>
             <div class="content__rightside">
                 <img src="../img/university.jpg" alt="Image" />
@@ -155,36 +158,14 @@
         </div>
     </div>
     <div class="content__seperator">
-        <div id="map"></div>
-        <script>
-            // Initialize and add the map
-            function initMap() {
-                // The location of Uluru
-                var uluru = {
-                    lat: 52.779068,
-                    lng: 6.901070
-                };
-                // The map, centered at Uluru
-                var map = new google.maps.Map(
-                    document.getElementById('map'), {
-                        zoom: 8,
-                        center: uluru
-                    });
-                // The marker, positioned at Uluru
-                var marker = new google.maps.Marker({
-                    position: uluru,
-                    map: map
-                });
-            }
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBok-t-HFWmzhsrYhpcEWY7xOTdEAC7Shk&callback=initMap">
-        </script>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2413.7814053764723!2d6.8962890512210375!3d52.77221642516056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b7e6104f7f8ee7%3A0x2dbdcd7492fec3d7!2sHoenderkamp+20%2C+7812+VZ+Emmen!5e0!3m2!1sde!2snl!4v1541596800349"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <footer id="footer">
         <div class="footer__wrapper">
             <div class="footer__left">
-                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="html/cookie_policy.html">Cookie Policy</a>&nbsp;|&nbsp;<a
-                    href="html/disclaimer.html">Disclaimer</a>
+                <a href="html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="html/cookie_policy.html">Cookie
+                    Policy</a>&nbsp;|&nbsp;<a href="html/disclaimer.html">Disclaimer</a>
             </div>
             <div class="footer__right">
                 <p>University of Applied Sciences for Business and Technology Emmen</p>
