@@ -1,4 +1,11 @@
 @media (max-width:990px) {
+    .content__main {
+        padding: 10px;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
 
     .navbar__link,
     .navbar__link--enroll {
