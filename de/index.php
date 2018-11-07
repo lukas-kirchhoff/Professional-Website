@@ -57,7 +57,7 @@
                 <div class="content__main">
                     <h3>Versicherungen</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="html/insurance.html">
+                    <a class="main__button" href="html/versicherungen.html">
                         mehr lesen
                     </a>
                 </div>
@@ -72,8 +72,7 @@
                 <div class="content__main">
                     <h3>Luftfahrt</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
-                        <!-- TODO Add Link to Aerospace -->
+                    <a class="main__button" href="html/luftfahrt.html">
                         mehr lesen
                     </a>
                 </div>
@@ -88,7 +87,7 @@
                 <div class="content__main">
                     <h3>Bankwesen</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="html/banking.html">
+                    <a class="main__button" href="html/bankwesen.html">
                         mehr lesen
                     </a>
                 </div>
@@ -103,8 +102,7 @@
                 <div class="content__main">
                     <h3>Marine</h3>
                     <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
-                        <!-- TODO Add Link to Marine -->
+                    <a class="main__button" href="html/marine.html">
                         mehr lesen
                     </a>
                 </div>
