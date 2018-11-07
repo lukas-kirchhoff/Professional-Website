@@ -17,7 +17,7 @@
     <header id="header">
         <div class="logo__wrapper">
             <a href="index.html">
-                <img src="../img/logo.jpg" alt="Logo" />
+                <img src="img/logo.jpg" alt="Logo" />
             </a>
         </div>
          <!-- NAVBAR -->
@@ -129,7 +129,7 @@
                 </p>
             </div>
             <div class="content__rightside">
-                <img src="img/university.jpg" alt="Image" />
+                <img src="../img/university.jpg" alt="Image" />
             </div>
         </div>
     </div>
