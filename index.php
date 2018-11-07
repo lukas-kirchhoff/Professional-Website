@@ -49,14 +49,14 @@
         <div class="content__wrapper--boxes">
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/document.svg" />
+                    <img src="img/icons/document.svg" alt="insurance icon"/>
                 </div>
                 <div class="hr__wrapper">
                     <hr />
                 </div>
                 <div class="content__main">
                     <h3>Insurance</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Insurance protects people from every economic level from losses, form of risk management.</p>
                     <a class="main__button" href="html/insurance.html">
                         more Information
                     </a>
@@ -64,15 +64,15 @@
             </div>
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/plane.svg" />
+                    <img src="img/icons/plane.svg" alt="Aerospace Icon"/>
                 </div>
                 <div class="hr__wrapper">
                     <hr />
                 </div>
                 <div class="content__main">
                     <h3>Aerospace</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
+                    <p>Aerospace engineering is concerned with the development of all kinds aircraft and spacecraft.</p>
+                    <a class="main__button" href="html/aerospace.html">
                         <!-- TODO Add Link to Aerospace -->
                         more Information
                     </a>
@@ -80,14 +80,14 @@
             </div>
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/pay.svg" />
+                    <img src="img/icons/pay.svg" alt="Banking icon" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
                 </div>
                 <div class="content__main">
                     <h3>Banking</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Banking is an industry that handles cash, credit, and other financial transactions.</p>
                     <a class="main__button" href="html/banking.html">
                         more Information
                     </a>
@@ -95,15 +95,15 @@
             </div>
             <div class="content-boxes">
                 <div class="content-boxes__header">
-                    <img src="img/icons/cruise.svg" />
+                    <img src="img/icons/cruise.svg" alt="Marine Engineering icon" />
                 </div>
                 <div class="hr__wrapper">
                     <hr />
                 </div>
                 <div class="content__main">
                     <h3>Marine</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
-                    <a class="main__button" href="#">
+                    <p>Marine engineering includes the engineering of boats, ships, oil rigs and any other marine vessel</p>
+                    <a class="main__button" href="html/marine.html">
                         <!-- TODO Add Link to Marine -->
                         more Information
                     </a>

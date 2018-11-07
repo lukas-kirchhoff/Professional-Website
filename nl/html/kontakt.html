@@ -1,0 +1,89 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kontakt</title>
+    <meta name="description" content="Professional Website">
+    <link rel="icon" type="image/png" href="../../img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo__wrapper">
+            <a href="../index.php">
+                <img src="../../img/logo.jpg" alt="Logo" />
+            </a>
+        </div>
+        <!-- NAVBAR -->
+        <div class="lang-switch">
+            <a class="lang-switch__link" href="../../index.php">EN</a> /
+            <a class="lang-switch__link" href="../../nl/index.php">NL</a> /
+            <span><b>DE</b></span>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="warum-ubt.html">Warum UBT</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="warum-emmen.html">Warum Emmen</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="geschaeft.html">Geschäft</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="technologie.html">Technologie</a></li>
+                <li class="navbar__link-de"><a class="navbar__link--a" href="kontakt.html">Kontakt</a></li>
+                <li class="navbar__link--enroll-de"><a class="navbar__link--a" href="jetzt-einschreiben.html">Jetzt einschreiben!</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- REPLACE THE IMAGE PATH -->
+    <div class="title-image">
+        <img src="../../img/contact4.jpg" alt="Header Image">
+    </div>
+
+    <!-- Content -->
+    <div class="content__wrapper">
+        <!-- Place your code inhere -->
+        <h1>Sag Hallo</h1>
+        <div class="content__leftside">
+            <h2>Wir helfen dir gerne weiter!</h2>
+            <form class="main-form" action="../php/danke.php" method="POST">
+                <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
+                <input class="input_text" required type="text" placeholder="Name" name="name" />
+                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                <select class="input_select" required name="interest">
+                    <option selected disabled>Brauchen Sie noch mehr Informationen?</option>
+                    <option value="marine">Marine</option>
+                    <option value="versicherungen">Versicherungen</option>
+                    <option value="luftfahrt">Luftfahrt</option>
+                    <option value="bankwesen">Bankwesen</option>
+                </select>
+                <input class="main__button" type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+        <div class="content__rightside--35">
+            <div class="contact__social-media">
+                <h2>Social Media</h2>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <a href="../../html/privacy_policy.html">Privacy Statement</a>&nbsp;|&nbsp;<a href="../../html/cookie_policy.html">Cookie Policy</a>&nbsp;|&nbsp;<a href="../../html/disclaimer.html">Disclaimer</a>
+            </div>
+            <div class="footer__right">
+                <p>University of Applied Sciences for Business and Technology Emmen</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
