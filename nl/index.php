@@ -17,7 +17,7 @@
     <header id="header">
         <div class="logo__wrapper">
             <a href="index.php">
-                <img src="img/logo.jpg" alt="Logo" />
+                <img src="../img/logo.jpg" alt="Logo" />
             </a>
         </div>
          <!-- NAVBAR -->
