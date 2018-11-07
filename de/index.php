@@ -56,9 +56,9 @@
                 </div>
                 <div class="content__main">
                     <h3>Versicherungen</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Die Versicherung schützt Menschen aus allen wirtschaftlichen Bereichen vor Verlusten und Formen des Risikomanagements.</p>
                     <a class="main__button" href="html/versicherungen.html">
-                        mehr lesen
+                        Mehr Lesen
                     </a>
                 </div>
             </div>
@@ -71,9 +71,9 @@
                 </div>
                 <div class="content__main">
                     <h3>Luftfahrt</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Die Luft- und Raumfahrttechnik befasst sich mit der Entwicklung von Flugzeugen und Raumfahrzeugen aller Art.</p>
                     <a class="main__button" href="html/luftfahrt.html">
-                        mehr lesen
+                        Mehr Lesen
                     </a>
                 </div>
             </div>
@@ -86,9 +86,9 @@
                 </div>
                 <div class="content__main">
                     <h3>Bankwesen</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Das Bankwesen ist eine Branche, die Bargeld, Kredite und andere Finanztransaktionen abwickelt.</p>
                     <a class="main__button" href="html/bankwesen.html">
-                        mehr lesen
+                        Mehr Lesen
                     </a>
                 </div>
             </div>
@@ -101,9 +101,9 @@
                 </div>
                 <div class="content__main">
                     <h3>Marine</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Marine Engineering umfasst das Engineering von Booten, Schiffen, Bohrinseln und anderen Marine-Schiffen</p>
                     <a class="main__button" href="html/marine.html">
-                        mehr lesen
+                        Mehr Lesen
                     </a>
                 </div>
             </div>

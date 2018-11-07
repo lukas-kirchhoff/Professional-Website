@@ -56,9 +56,9 @@
                 </div>
                 <div class="content__main">
                     <h3>Insurance</h3>
-                    <p>Insurance protects people from every economic level from losses, form of risk management.</p>
+                    <p>Insurance protects people from every economic level from losses and forms of risk management.</p>
                     <a class="main__button" href="html/insurance.html">
-                        more Information
+                        More Information
                     </a>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     <p>Aerospace engineering is concerned with the development of all kinds aircraft and spacecraft.</p>
                     <a class="main__button" href="html/aerospace.html">
                         <!-- TODO Add Link to Aerospace -->
-                        more Information
+                        More Information
                     </a>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                     <h3>Banking</h3>
                     <p>Banking is an industry that handles cash, credit, and other financial transactions.</p>
                     <a class="main__button" href="html/banking.html">
-                        more Information
+                        More Information
                     </a>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                     <p>Marine engineering includes the engineering of boats, ships, oil rigs and any other marine vessel</p>
                     <a class="main__button" href="html/marine.html">
                         <!-- TODO Add Link to Marine -->
-                        more Information
+                        More Information
                     </a>
                 </div>
             </div>

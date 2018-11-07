@@ -56,7 +56,7 @@
                 </div>
                 <div class="content__main">
                     <h3>Verzekering</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Verzekering beschermt mensen van elk economisch niveau tegen verliezen en vormen van risicobeheer.</p>
                     <a class="main__button" href="html/insurance.html">
                         Meer Informatie
                     </a>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="content__main">
                     <h3>Lucht- en ruimtevaarttechniek</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Luchtvaart- en Ruimtevaarttechniek houdt zich bezig met de ontwikkeling van allerlei soorten vliegtuigen en ruimtevaartuigen.</p>
 					<a class="main__button" href="html/aerospace.html">
                         Meer Informatie
                     </a>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="content__main">
                     <h3>Bankieren</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Bankieren is een sector die contant geld, kredieten en andere financiële transacties verwerkt.</p>
                     <a class="main__button" href="html/banking.html">
                         Meer Informatie
                     </a>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="content__main">
                     <h3>Maritieme techniek</h3>
-                    <p>massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget</p>
+                    <p>Scheepsbouw omvat de engineering van boten, schepen, boorplatforms en elk ander zeeschip</p>
                     <a class="main__button" href="html/marine.html">
                         Meer Informatie
                     </a>
