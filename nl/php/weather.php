@@ -50,7 +50,7 @@ switch($tempCode) {
     case 3:
     case 4:
     case 24: 
-        $imgSrc = "img/weather/png/windsock.png";
+        $imgSrc = "../img/weather/png/windsock.png";
         break;
     case 5: 
     case 6: 
@@ -63,52 +63,52 @@ switch($tempCode) {
     case 17:
     case 18:
     case 19: 
-        $imgSrc = "img/weather/png/snowing.png";
+        $imgSrc = "../img/weather/png/snowing.png";
         break;
     case 10:
     case 11:
     case 12: 
     case 35:
     case 40:
-        $imgSrc = "img/weather/png/rain.png";
+        $imgSrc = "../img/weather/png/rain.png";
         break;
     case 19:
     case 20:
     case 21:
     case 22:
     case 23:
-        $imgSrc = "img/weather/png/haze.png";
+        $imgSrc = "../img/weather/png/haze.png";
         break;
     case 25: 
-        $imgSrc = "img/weather/png/thermometer.png";
+        $imgSrc = "../img/weather/png/thermometer.png";
         break;
     case 26:
     case 27:
     case 28:
     case 29:
     case 30:
-        $imgSrc = "img/weather/png/cloud.png";
+        $imgSrc = "../img/weather/png/cloud.png";
         break;
     case 31:
-        $imgSrc = "img/weather/png/day.png";
+        $imgSrc = "../img/weather/png/day.png";
         break;
     case 32:
     case 33:
     case 34:
-        $imgSrc = "img/weather/png/sun-1.png";
+        $imgSrc = "../img/weather/png/sun-1.png";
         break;
     case 36:
-        $imgSrc = "img/weather/png/thermometer-1.png";
+        $imgSrc = "../img/weather/png/thermometer-1.png";
         break;
     case 37:
     case 38:
     case 39:
-        $imgSrc = "img/weather/png/storm-1.png";
+        $imgSrc = "../img/weather/png/storm-1.png";
         break;
     case 16:
     case 41:
     case 42:
-        $imgSrc = "img/weather/png/snowing.png";
+        $imgSrc = "../img/weather/png/snowing.png";
         break;
     default:
        echo "Error";
@@ -118,17 +118,17 @@ global $tempDegree;
 ?>
 <div class="weather__wrapper">
     <h2>
-        The weather in
+        Het weer in
         <?php echo $location; ?>
     </h2>
     <div class="weather__image">
-        <img src="<?php echo $imgSrc; ?>" alt="The Weather in Emmen" />
+        <img src="<?php echo $imgSrc; ?>" alt="Het weer in Emmen" />
     </div>
     <div class="weather__text">
         <span class="weather-temperatur">
             <?php echo $tempDegree . "°C"; ?>
         </span>
-        <p>The weather today in
+        <p>Het weer vandaag in
             <?php echo $location; ?> is
             <?php echo $tempText; ?>
         </p>
